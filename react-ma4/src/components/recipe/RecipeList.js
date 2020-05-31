@@ -5,6 +5,7 @@
 // This component will pass a function that filters the list on the relevant property into the SearchRecipe component.
 
 import React, { useState, useEffect } from "react";
+import Spinner from "react-bootstrap/Spinner";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import RecipeItem from "./RecipeItem";

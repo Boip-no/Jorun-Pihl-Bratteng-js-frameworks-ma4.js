@@ -5,7 +5,7 @@ import RecipeList from "../recipe/RecipeList";
 export function Home() {
     return (
         <>
-            <Heading title="Rick and Morty" />
+            <Heading title="Recipe" />
             <RecipeList />
         </>
     );

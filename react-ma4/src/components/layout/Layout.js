@@ -30,7 +30,6 @@ function layout() {
             <Container>
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/recipe/:id" component={RecipeDetail} />
                 </Switch>
             </Container>
         </Router>
